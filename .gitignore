@@ -1,0 +1,22 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+wp-config.php
+*.key
+*.pem
+
+# WordPress runtime files
+wp-content/debug.log
+wp-content/cache/
+wp-content/uploads/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Database dumps - only commit sanitized exports if required
+*.sql
+*.sql.gz
