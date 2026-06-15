@@ -15,3 +15,18 @@ I created the project documentation structure, updated the README, wrote the pro
 ## 🔮 Next Steps
 
 Next I plan to continue setting up the WordPress site, install or confirm the activity log plugin, export important Elementor and WooCommerce updates, and begin tracking changes through screenshots and GitHub commits.
+
+
+
+### Week 2
+
+## ⚙️ Overview
+
+
+## 🌵 Challenges
+
+
+## 🏆 Accomplishments
+
+
+## 🔮 Next Steps
