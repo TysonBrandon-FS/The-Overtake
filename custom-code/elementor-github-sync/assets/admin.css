@@ -1,0 +1,165 @@
+/* Elementor GitHub Sync - admin styles */
+
+.egs-wrap .egs-subtitle {
+	font-size: 14px;
+	color: #50575e;
+	margin-top: 4px;
+}
+
+/* Status cards */
+.egs-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 12px;
+	margin: 18px 0;
+}
+
+.egs-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left-width: 4px;
+	border-radius: 6px;
+	padding: 14px 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.egs-card-label {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .4px;
+	color: #646970;
+	font-weight: 600;
+}
+
+.egs-card-value {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.egs-state-good { border-left-color: #00a32a; }
+.egs-state-bad { border-left-color: #d63638; }
+.egs-state-unknown { border-left-color: #dba617; }
+
+.egs-state-good .egs-card-value { color: #00a32a; }
+.egs-state-bad .egs-card-value { color: #d63638; }
+
+.egs-laststatus {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 22px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 12px 16px;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+.egs-error-text { color: #d63638; }
+
+/* Layout grid */
+.egs-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 20px;
+	align-items: start;
+}
+
+@media screen and (max-width: 960px) {
+	.egs-grid { grid-template-columns: 1fr; }
+}
+
+.egs-box {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 8px 18px 16px;
+	margin-bottom: 20px;
+}
+
+.egs-box h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #f0f0f1;
+	padding-bottom: 10px;
+}
+
+.egs-radio { display: block; margin-bottom: 6px; }
+
+.egs-token-status {
+	display: inline-block;
+	margin-left: 8px;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 600;
+	background: #edfaef;
+	color: #00a32a;
+}
+
+/* Method visibility toggling */
+.egs-method { transition: opacity .15s ease; }
+.egs-method.egs-hidden { display: none; }
+
+/* Actions */
+.egs-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin: 10px 0;
+}
+
+.egs-buttons .button { text-align: center; }
+
+.egs-result {
+	margin-top: 10px;
+	font-size: 13px;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.egs-result .egs-ok { color: #00a32a; }
+.egs-result .egs-fail { color: #d63638; }
+
+.egs-result pre {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 8px;
+	max-height: 220px;
+	overflow: auto;
+	font-size: 12px;
+}
+
+.egs-help ol { margin-left: 18px; }
+.egs-help li { margin-bottom: 4px; }
+
+/* Logs */
+.egs-logs-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.egs-logs-table { margin-top: 10px; }
+.egs-col-time { width: 170px; }
+.egs-col-level { width: 90px; }
+
+.egs-level {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.egs-level-info { background: #f0f6fc; color: #2271b1; }
+.egs-level-success { background: #edfaef; color: #00a32a; }
+.egs-level-warning { background: #fcf9e8; color: #996800; }
+.egs-level-error { background: #fcf0f1; color: #d63638; }
+
+.egs-spin { opacity: .6; pointer-events: none; }
