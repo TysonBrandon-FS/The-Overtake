@@ -6,7 +6,8 @@ Basically merge conflicts happen when Git cannot automatically decide which chan
 
 Using git pull before I start making changes to ake suyre everything is up to date. If I am on my feature branch, I should pull the newest work from dev first so my branch is not behind. That way, I can catch any conflicts early instead of waiting until the pull request. If Git shows a conflict during the pull, I would fix the file, save it, commit the resolved version, and then keep working. This helps avoid bigger merge problems later.
 
-The biggest thing I learned is that I need to slow down and check what branch I am on before I start working. I also need to pull the newest changes more often and use smaller commits so my work is easier to track. Going forward, I want to make sure I do my actual development work on the correct feature branch, merge it into dev, and only move it to staging when it is ready to be reviewed.
+While working with branches this week, I ran into the merge commit message screen after running a Git pull or merge. At first it looked like an error, but it was really Git asking me to confirm the merge message before finishing the commit. I learned that when Vim opens this screen, I can press Esc, type :wq, and press Enter to save and continue. This helped me understand that some Git issues are not actual problems, but just steps in the merge process that I need to complete correctly.
+
 
 ## References
 
