@@ -18,3 +18,19 @@ Corrisponding images of work styled before and bafter below.
 - **6-26 single product after**
 - **6-26 cart before** 
 - **6-26 cart after**
+
+### 6/27/2026
+- **Working on checkout page styling:** worked on the WooCommerce checkout page and added styling.
+
+- **Adding background and layout styling:** added the dark background design, checkout layout spacing, order summary styling.
+
+- **Styling buttons and input fields:** worked on the WooPay button, shop button, checkout, billing inputs, contact fields, borders, spacing, and text colors.
+
+- **Mobile and tablet configuration:** updated the checkout page to work on mobile and tablet, with fixed spacing and responsive sizing.
+
+- **Working on the mobile menu:** styled the WooCommerce mobile cart/menu slideout menu. Text was orginally oversized and running off the pages, resized everything to be responsive ot the parent sizing.
+
+Corresponding images of work styled before and after below.
+
+- **6-27 checkout page design**
+- **6-27 mobile menu**
