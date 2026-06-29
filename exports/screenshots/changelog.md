@@ -2,7 +2,7 @@
 
 All notable changes to The Overtake Formula 1 website, blog platform, and merch store will be documented in this file.
 
-## In Progress
+## Completed Work
 
 ### 6/24/2026
 - **Setting up this changelog:** Getting used to creating issues then making the change here, and geting used to this work flow.
@@ -34,3 +34,17 @@ Corresponding images of work styled before and after below.
 
 - **6-27 checkout page design**
 - **6-27 mobile menu**
+
+### 6/28/2026
+
+* **Compliance and regulation research:** researched copyright, trademark, privacy, and security concerns for The Overtake.
+
+* **F1 merch research:** learned that using driver Instagram photos, official F1 logos, team logos, or protected branding can create legal risks.
+
+* **Privacy and disclaimer notes:** added notes about including a privacy policy and disclaimer for the site.
+
+* **Recorded site walkthrough:** made a walkthrough video showing the current blog, shop, product, cart, checkout, and mobile menu progress.
+
+* **Updated weekly logs:** added this week’s overview, challenges, accomplishments, and next steps.
+
+* **Moved beta metrics forward:** moved analytics and beta testing plans to the next class stage.

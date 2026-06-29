@@ -54,3 +54,22 @@ This week I leveled up my understanding of merge conflicts and Git merge command
 ## 🔮 Next Steps
 
 Next, I plan to keep testing the site and finish designing the pages I connected this week. My main focus will be styling the cart page and the single product page so the store feels more complete.
+
+
+### Week 4
+
+## ⚙️ Overview
+
+This week I focused on styling and cleaning up the main WooCommerce pages. I worked on the single product page, cart page, checkout page, and mobile menu. Most of the work was CSS and layout updates, including the moving background, product images, payment buttons, size selectors, checkout fields, order summary, spacing, borders, and responsive sizing for mobile and tablet.
+
+## 🌵 Challenges
+
+No major challenges this week. Most of the work was front end styling and testing the WooCommerce pages at different screen sizes.
+
+## 🏆 Accomplishments
+
+This week I finished designing the main pages for the site. The store is starting to feel more complete now because the main shopping flow is connected and styled. Also we implimented my new tracking system
+
+## 🔮 Next Steps
+
+Next, I plan to get ready for testing and analytics for the final part of class. I want to test the site flow, check the buttons and checkout process, and set up analytics so I can start reviewing how users interact with the site.
